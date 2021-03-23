@@ -27,3 +27,7 @@ dependencies:
       - flake8==3.7.*
       - flake8_formatter_junit_xml==0.0.*
       - azure-cli==2.3.*
+      
+      #added this chasing down this error: Job preparation failed: It is required that you pass in a value for the "algorithms" argument when calling decode()
+      - PyJWT<2.0.0
+      - azureml-core
