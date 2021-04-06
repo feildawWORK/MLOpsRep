@@ -23,7 +23,7 @@ dependencies:
 
   - pip:
       # Base AzureML SDK
-      - azureml-sdk==2.21.0
+      - azureml-sdk #==2.21.0
 
       # Must match AzureML SDK version.
       # https://docs.microsoft.com/en-us/azure/machine-learning/concept-environments
@@ -37,5 +37,5 @@ dependencies:
 
       # MLOps with R
       - azure-storage-blob
-      - pyjwt==1.7.1
+      #- pyjwt==1.7.1
       
